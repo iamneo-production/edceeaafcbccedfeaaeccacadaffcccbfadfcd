@@ -16,4 +16,6 @@ export class AppComponent {
     if(a!=null && b!=null){
       this.result=Math.round(b/a*amt).toFixed(2);
       return this.result;
+    }
+  }
 }
